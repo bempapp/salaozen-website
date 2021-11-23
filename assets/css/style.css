@@ -102,4 +102,7 @@ a:hover, a:active {
   .separator {
     height: 70px;
   }
+  .notice {
+    margin: 0 5%;
+  }
 }
