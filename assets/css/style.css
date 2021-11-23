@@ -1,0 +1,95 @@
+html, body {
+  overflow-x:hidden 
+}
+
+body {
+  background: url('../images/background.webp') no-repeat center;
+  background-size: cover;
+  font-family: "Work Sans",Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 2px 2px #444;
+  margin: 0;
+}
+
+body:before {
+  content: "";
+  background: #5f2482;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .8;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  margin: 2em;
+}
+
+footer {
+  padding: .5em;
+  opacity: 0.4;
+  font-size: .8em;
+  text-align: right;
+}
+
+a {
+  display: inline-block;
+  border-radius: 10px;
+  padding: .5em 1em;
+  text-decoration: none;
+  background-color: #fff;
+  color: #5f2482;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+a:hover, a:active {
+  border-color: #5f2482;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0;
+}
+
+.content {
+  text-align: center;
+}
+
+.brand {
+  font-family: 'MuseoModerno', cursive;
+  text-transform: lowercase;
+}
+
+.large {
+  font-size: 1.2em;
+}
+
+.notice {
+  margin: 0 15%;
+  padding: 1em;
+  font-size: 1.6em;
+  background: #ffffff22;
+  text-align: center;
+  border-radius: .5em;
+}
+
+.wave-bottom,
+.wave-top {
+  opacity: 0.3;
+}
+
+.separator {
+  display: inline-block;
+  width: 1px;
+  height: 100px;
+  background-color: #fff;
+  margin: 0 2em;
+}
